@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    background-color: #526D82;
+    min-width:450px;
+  }
+  
+  #header-img{
+    max-width: 25%;
+    border-radius: 0px 4px 9px 0px;
+    display: inline-block;
+  }
+  
+  .logo{
+    float:left;
+    max-width: 300px;
+  }
+  
+  #racoon-corp{
+    font-family: "Copperplate";
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 12px;
+  }
+  
+  ul li{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+  ul{
+    float: right;
+  }
+  
+  li{
+    display: inline-block;
+  }
+  
+  li a.nav-link{
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
+  @media (min-width: 500px){
+    body{
+      font-size: 2vw;
+    }
+  
+    #email{
+      min-width: 20vw;
+      min-height: 3vw;
+      font-size: 1.5vw;
+    }
+  
+    #submit{
+      min-width: 10vw;
+      min-height: 2vw;
+    }
+    
+  }
+  li a:hover{
+    background-color: #444;
+    border-radius: 9px;
+    color: #DDE6ED;
+  }
+  
+  header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #526D82;
+    border-radius: 2px;
+  }
+  
+  section{
+    width: 100%;
+  }
+  
+  .signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+  
+  h2{
+    color: #eeeeee;
+    font-family: sans-serif;
+    margin: 10px auto;
+  }
+  
+  .cool:hover{
+    color: #B0C4DE;
+  }
+  
+  
+  #email{
+    border-radius: 3px;
+    padding: 5px;
+    margin: auto;
+    border: 0px;
+    min-height: 30px;
+    min-width: 200px;
+  }
+  
+  #submit{
+    display: block;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 0.7em;
+    background-image: linear-gradient(20deg, #aaa, #eee);
+    border-radius: 9px;
+    margin: 10px auto;
+    border: 0px;
+    min-height: 30px;
+    min-width: 100px;
+    padding: 10px;
+  }
+  
+  #submit:hover{
+    color: #444;
+  }
+  
+  p{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: #eee;
+    max-width: 40%;
+    margin: auto;
+  
+  }
+  
+  .grid{
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20%;
+    text-align: center;
+    overflow: hidden;
+    gap: 2rem;
+  }
+  
+  @media (max-width: 800px){
+    iframe{
+      max-width: 100%;
+    }
+  }
+  
+  #How{
+    padding-top: 50px;
+    margin: 0 22%;
+  }
+  
+  #grid-prices{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 20px;
+  }
+  
+  #Price{
+    border: 2px solid #eee;
+    border-radius: 9px;
+    margin-left: 10px;
+    min-height: 300px;
+    background-color: #333;
+    text-align: center;
+  }
+  
+  h3{
+    margin: 10px 0;
+    color: #fff;
+    font-size: 1.5em;
+    font-family: sans-serif;
+  }
+  .price-text{
+    text-align: center;
+    max-width: 100%;
+    font-size: 1em;
+  }
+  
+  #model {
+   margin-top: 0;
+   border-radius: 9px 9px 3px 0;
+   padding: 5px;
+  }
+  
+  #standard{
+    background-image: linear-gradient(45deg, #ef9a45, #ef9254);
+    border-radius: 6px 6px 3px 0;
+  }
+  
+  #premium{
+    background-image: linear-gradient(45deg, #aaa, #fff);
+    border-radius: 6px 6px 3px 0;
+  }
+  
+  #pro{
+    background-image: linear-gradient(45deg,	#FAA520,#FFD700);
+    border-radius: 6px 6px 3px 0;
+  }
+  
+  #price-select{
+    background-color: #FFD700;
+    border-radius: 9px;
+    border: 0;
+    padding: 10px;
+    font-size: 1em;
+    margin: 20%;
+    font-family: sans-serif;
+  }
+  
+  #price-select:hover{
+    background-color: #FFC330;
+    color: white;
+  }
+  
+  footer{
+    padding-top: 5px;
+    margin-top: 100px;
+    color: #eee;
+    font-family: sans-serif;
+    background-color: #637E93;
+    height: 15%;
+    border-radius: 4px 0 0 0;
+  }
+  
+  #foot-link{
+    text-decoration: none;
+    color: white;
+  }
+  
+  span{
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  
